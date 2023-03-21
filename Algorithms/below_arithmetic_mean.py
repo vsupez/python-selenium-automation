@@ -1,3 +1,4 @@
+0(n)
 def below_mean(arr):
     sum=0
     result = []
