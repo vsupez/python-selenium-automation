@@ -12,5 +12,6 @@ class MainPage(Page):
     def open_new_arrivals(self):
         self.open_url("https://www.amazon.com/gp/product/B074TBCSC8")
 
+    # HW8
     def verify_deals_present(self):
         self.wait_for_element_appear(*self.DEALS)

@@ -26,9 +26,11 @@ HAM_MENU = (By.ID, 'nav-hamburger-menu')
 def open_new_arrivals(context):
     context.app.main_page.open_new_arrivals()
 
+
 @when('Hover over language options')
 def hover_lang_options(context):
     context.app.header.hover_lang_options()
+
 
 @when('Hover over New Arrivals')
 def hover_new_arrivals(context):
@@ -55,11 +57,12 @@ def select_department_books(context, alias):
     context.app.header.select_department(alias)
 
 
+# HW8
 @then('Verify {category} department is selected')
 def verify_selected_dept(context, category):
     context.app.search_results_page.verify_selected_dept(category)
 
+
 @then("Verify that user sees deals")
 def verify_deals_present(context):
     context.app.main_page.verify_deals_present()
-

@@ -39,6 +39,7 @@ Feature: Amazon search tests
     Then Verify audible department is selected
 
 
+  #HW8
   Scenario: User can select and search in a department
     Given Open amazon page
     When Select department by alias appliances

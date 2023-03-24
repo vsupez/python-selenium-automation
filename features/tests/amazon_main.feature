@@ -12,6 +12,7 @@ Feature: Amazon main page tests
     When Hover over language options
     Then Verify spanish option is present
 
+   #HW8
   Scenario: User can see the details when hover over New Arrivals
     Given Open New Arrivals page
     When Hover over New Arrivals

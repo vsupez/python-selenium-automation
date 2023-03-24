@@ -46,6 +46,7 @@ class Header(Page):
         select = Select(department_dd)
         select.select_by_value(f'search-alias={alias}')
 
+    # HW8
     def hover_new_arrivals(self):
         new_arrivals = self.driver.find_element(*self.NEW_ARR)
         actions = ActionChains(self.driver)
